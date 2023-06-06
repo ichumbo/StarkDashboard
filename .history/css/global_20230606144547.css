@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--main-text);
+    background: var(--bg-body);
+}
+
+.page-wrapper {
+    width: 93%;
+    margin: auto;
+}
+
+.page-wrapper::before {
+    content: "";
+    width: 100%;
+    height: 430px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: var(--color-main);
+    z-index: -1;
+    border-radius: 0px 0px 0px 40px;
+}

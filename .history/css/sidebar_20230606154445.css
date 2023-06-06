@@ -1,0 +1,54 @@
+.sidebar {
+    width: 250px;
+    margin-left: 40px;
+}
+
+.brand {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.brand h3 {
+    font-size: 1.8rem;
+    background: var(--color-white);
+}
+
+/*-----------------------------------------------PROFILE----------------------------------------------*/
+
+.profile-card {
+    text-align: center;
+    margin: 2rem 0rem;
+}
+
+.profile-img {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1.3rem;
+}
+
+.profile-info {
+    background: var(--color-white);
+    margin-bottom: 1.5rem;
+}
+
+.profile-info h2 {
+    margin-bottom: .3rem;
+}
+
+.profile-info small {
+    font-size: 1rem;
+}
+
+.profile-action {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.profile-action a {
+    margin-bottom: 2rem;
+}

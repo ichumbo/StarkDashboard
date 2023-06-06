@@ -1,0 +1,13 @@
+:root {
+    --color-main: #FC4F00;
+    --color-secondary: #FFB100;
+    --color-dark: #2A2550;
+    --color-dark-secundary: #181823;
+    --bg-body: #F8F8FB;
+    --color-white: #FFFFFF;
+    --main-accent: #DC8449;
+    --main-text: #8492A6;
+    --success: #28A745;
+    --danger: #DC3545;
+    --shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
