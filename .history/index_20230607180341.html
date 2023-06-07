@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stark</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Icons-->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+</head>
+<body>
+<!-------------------------------------------------Perfil------------------------------------------------------>
+    <div class="page-wrapper">
+        <input type="checkbox" name="" id="menu-toggle">
+
+        <div class="sidebar">
+            <div class="brand">
+                <img src="./img/blackicon.png" alt="stark" class="icon-header">
+            </div>
+
+            <div class="profile-card">
+                <div class="profile-img">
+                    <img src="./img/iconphoto.png" alt="Perfil" class="photo-header">
+                </div>
+                <div class="profile-info">
+                    <h2>Ian Melo</h2>
+                    <small>Front-end</small>
+                </div>
+                <div class="profile-action">
+                    <a href="" class="btn btn-white">
+                        <span class="las la-coins"></span>
+                        Test
+                    </a>
+                </div>
+                <div class="profile-icons">
+                    <span class="las la-user"></span>
+                    <span class="las la-comment-alt"></span>
+                    <span class="las la-file-invoice"></span>
+                </div>
+            </div>
+
+<!-----------------------------------------------------Menu---------------------------------------------------->
+
+            <div class="sidebar-menu">
+                <div class="menu-item">
+                    <a href="" class="active">
+                        <span class="las la-campground"></span>
+                        <span>Home</span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
+                    <a href="">
+                        <span class="las la-list"></span>
+                        <span>Pedidos</span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
+                    <a href="">
+                        <span class="las la-hourglass-half"></span>
+                        <span>Andamento</span>
+                    </a>
+                </div>
+
+                <div class="menu-item">
+                    <a href="">
+                        <span class="las la-list-alt"></span>
+                        <span>Finalizados</span>
+                    </a>
+                </div>
+
+            </div>
+
+<!-------------------------------------------------Cards------------------------------------------------------->
+            <div class="sidebar-card">
+                <h3>Olá, Ian</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.   
+                </p>
+                <a href="" class="btn btn-block btn-white">Test</a>
+            </div>
+        </div>
+
+<!-------------------------------------------------Header------------------------------------------------------>
+        <div class="main-content">
+            <header>
+                <label for="menu-toggle">
+                    <span class="las la-bars"></span>
+                </label>
+
+                <div class="head-icons">
+                    <span class="las la-search"></span>
+                    <span class="las la-comment-alt"></span>
+                    <span class="las la-bell"></span>
+                </div>
+            </header>
+
+<!--------------------------------------------------Main--------------------------------------------------------->
+            <main>
+                <div class="page-header">
+                    <h1>Boa $dtn, $name</h1>
+                    <small>Tenha um bom $dtn</small>
+                </div>
+
+                <div class="analytics">
+                    <div class="engage-card">
+                        <div class="card-head">
+                            engagement
+                        </div>
+                        <div class="card-body">
+                            <div id="chart"></div>
+                        </div>
+                    </div>
+                    <div class="emails-card">
+
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+<!----------------------------------------Script------------------------------------------->
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+<script>
+    let options = {
+        series: [{
+          name: "Desktops",
+          data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
+      }],
+        chart: {
+        height: 350,
+        type: 'line',
+        zoom: {
+          enabled: false
+        }
+      },
+      dataLabels: {
+        enabled: false
+      },
+      stroke: {
+        curve: 'straight'
+      },
+      title: {
+        text: 'Product Trends by Month',
+        align: 'left'
+      },
+      grid: {
+        row: {
+          colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+          opacity: 0.5
+        },
+      },
+      xaxis: {
+        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+      }
+      };
+
+      var chart = new ApexCharts(document.querySelector("#chart"), options);
+      chart.render();
+</script>
+
+</body>
+</html>

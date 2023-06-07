@@ -1,0 +1,15 @@
+.page-header {
+    color: var(--color-white);
+    margin: 1rem 0rem;
+}
+
+.analytics {
+    display: grid;
+    grid-template-columns: 70% auto;
+    grid-gap: 2rem;
+}
+
+.card {
+    background: var(--color-white);
+    border-radius: 10px;
+}
