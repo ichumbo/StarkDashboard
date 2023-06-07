@@ -28,3 +28,22 @@ header label {
     display: inline-block;
     font-size: 1.2rem;
 }
+
+.head-avatar {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background: #ffff;
+}
+
+.head-avatar .avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.head-avatar span {
+
+}
