@@ -127,7 +127,7 @@
                             Pedidos Finalizados
                         </div>
                         <div class="card-body">
-                            <div class="chart-wrapper">
+                            <div>
                                 <div id="chart"></div>
                             </div>
                         </div>
@@ -145,13 +145,10 @@
 <script>
     let options = {
         chart: {
-            type: 'line',
-            height: "280px",
-            fontFamily:"Nunito",
+          type: 'line'
         },
         stroke: {
             curve: "smooth",
-            width: 8,
             colors: ['#FC4F00'],
         },
         series: [{

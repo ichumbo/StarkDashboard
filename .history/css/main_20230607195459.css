@@ -5,7 +5,7 @@
 
 .analytics {
     display: grid;
-    grid-template-columns: 65% auto;
+    grid-template-columns: 70% auto;
     grid-gap: 2rem;
     margin-top: 2rem;
 }
@@ -17,13 +17,12 @@
 }
 
 .card-head {
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: var(--color-main);
     font-weight: 600;
-    padding: 1rem 2rem;
-    border-bottom: 1px solid var(--bg-body);
+    padding: 1rem;
 }
 
-.card-body {
-    padding: 1rem 2rem;
+.card .card-head {
+    padding: .5rem 1rem;
 }

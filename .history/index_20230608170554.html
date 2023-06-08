@@ -146,12 +146,13 @@
     let options = {
         chart: {
             type: 'line',
-            height: "280px",
-            fontFamily:"Nunito",
+            toolbar: {
+                show: false,
+            }
         },
         stroke: {
             curve: "smooth",
-            width: 8,
+            width: 5,
             colors: ['#FC4F00'],
         },
         series: [{

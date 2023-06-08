@@ -124,12 +124,10 @@
                 <div class="analytics">
                     <div class="card engage-card">
                         <div class="card-head">
-                            Pedidos Finalizados
+                            Vendas
                         </div>
                         <div class="card-body">
-                            <div class="chart-wrapper">
-                                <div id="chart"></div>
-                            </div>
+                            <div id="chart"></div>
                         </div>
                     </div>
                     <div class="card emails-card">
@@ -145,17 +143,14 @@
 <script>
     let options = {
         chart: {
-            type: 'line',
-            height: "280px",
-            fontFamily:"Nunito",
+          type: 'line'
         },
         stroke: {
             curve: "smooth",
-            width: 8,
             colors: ['#FC4F00'],
         },
         series: [{
-          name: 'Finalizados',
+          name: 'engagement',
           data: [5,3,10,8,29,19,22,8]
         }],
         xaxis: {

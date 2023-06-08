@@ -5,7 +5,7 @@
 
 .analytics {
     display: grid;
-    grid-template-columns: 65% auto;
+    grid-template-columns: 60% auto;
     grid-gap: 2rem;
     margin-top: 2rem;
 }
@@ -25,5 +25,5 @@
 }
 
 .card-body {
-    padding: 1rem 2rem;
+
 }
