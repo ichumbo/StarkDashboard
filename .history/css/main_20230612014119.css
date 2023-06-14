@@ -21,18 +21,14 @@
     color: var(--color-main);
     font-weight: 600;
     padding: 1rem 2rem;
-    border-bottom: 1px solid var(--color-main);
+    border-bottom: 1px solid var(--bg-body);
 }
 
 .card-body {
     padding: 1.5rem 2rem;
 }
 
-.sales-card .card-body {
-    padding: .3rem;
-}
-
-.card-footer {
+.emails-card .card-body {
     padding: 1rem;
 }
 

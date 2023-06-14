@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: 65% auto;
     grid-gap: 2rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .card {
@@ -21,19 +21,11 @@
     color: var(--color-main);
     font-weight: 600;
     padding: 1rem 2rem;
-    border-bottom: 1px solid var(--color-main);
+    border-bottom: 1px solid var(--bg-body);
 }
 
 .card-body {
-    padding: 1.5rem 2rem;
-}
-
-.sales-card .card-body {
-    padding: .3rem;
-}
-
-.card-footer {
-    padding: 1rem;
+    padding: 1rem 2rem;
 }
 
 .chart-wrapper {

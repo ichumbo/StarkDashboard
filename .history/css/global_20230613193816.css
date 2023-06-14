@@ -57,7 +57,7 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    background: var(--bg-body-dark);
+    background: var(--color-3);
     z-index: -1;
     border-radius: 0px 0px 0px 100px;
     box-shadow: var(--shadow);
