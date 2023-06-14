@@ -1,0 +1,38 @@
+.page-header {
+    color: var(--color-white);
+    margin: 1rem 0rem;
+}
+
+.analytics-register {
+    
+}
+
+.card {
+    background: var(--color-white);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.card-head {
+    font-size: 1rem;
+    color: var(--color-main);
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--color-main);
+}
+
+.card-body {
+    padding: 1.5rem 2rem;
+}
+
+.sales-card .card-body {
+    padding: .3rem;
+}
+
+.card-footer {
+    padding: 1rem;
+}
+
+.chart-wrapper {
+    padding-top: 1rem 0rem;
+}

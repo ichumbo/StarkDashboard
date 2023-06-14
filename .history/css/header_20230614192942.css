@@ -1,0 +1,30 @@
+.main-content {
+    padding: 0 20px 0px 60px;
+    flex: 1;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    border-bottom: 2px solid var(--color-4);
+    padding-top: 1rem;
+    color: var(--color-white)
+}
+
+header label {
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+.head-icons {
+    display: flex;
+    align-items: center;
+}
+
+.head-icons span {
+    margin-left: 1rem;
+    display: inline-block;
+    font-size: 1.2rem;
+}

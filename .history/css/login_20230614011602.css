@@ -1,0 +1,31 @@
+#login-bg {
+    background-color: #1B1F27;
+    overflow: hidden;
+}
+
+.area-login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-login {
+    width: 10px;
+}
+
+.login {
+    background-color: #181920;
+    width: 355px;
+    height: 320px;
+    padding: 35px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login input {
+    margin-top: 10px;
+}

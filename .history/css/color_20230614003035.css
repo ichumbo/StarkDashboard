@@ -1,0 +1,17 @@
+:root {
+    --color-main: #16BF78;
+    --color-secondary: #0A5938;
+    --color-3: #16BF78;
+    --color-4: #2C3333;
+    --color-dark: #100F0F;
+    --color-dark-secundary: #181823;
+    --bg-body-dark: #0D1F22;
+    --bg-body: #F4F9F9;
+    --color-white: #FFFFFF;
+    --main-accent: #DC8449;
+    --main-text: #8492A6;
+    --success: #28A745;
+    --danger: #DC3545;
+    --shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    --shadow2: 6px 5px 5px rgba(125, 141, 161, 0.3);
+}

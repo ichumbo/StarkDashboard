@@ -1,0 +1,81 @@
+.page-header {
+    color: var(--color-white);
+    margin: 1rem 0rem;
+}
+
+.analytics {
+    display: grid;
+    grid-template-columns: 65% auto;
+    grid-gap: 2rem;
+    margin-top: 3rem;
+}
+
+.card {
+    background: var(--color-white);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+}
+
+.card-head {
+    color: var(--color-main);
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid var(--color-main);
+}
+
+.card-body {
+    padding: .5rem 1rem;
+}
+
+.sales-card .card-body {
+    padding: .3rem;
+}
+
+.card-footer {
+    padding: 1rem;
+}
+
+.chart-wrapper {
+    padding-top: 1rem 0rem;
+}
+
+/*----------------------------TABLE---------------------------------*/
+.content-table {
+    border-collapse: collapse;
+    background-color: var(--color-white);
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: var(--color-main);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid var(--color-main);
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: var(--color-main);
+}

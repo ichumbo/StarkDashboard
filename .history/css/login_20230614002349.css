@@ -1,0 +1,10 @@
+#login {
+    background-color: var(--bg-body-dark);
+    overflow: hidden;
+}
+
+.area-login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}

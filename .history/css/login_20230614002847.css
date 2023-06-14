@@ -1,0 +1,16 @@
+#login-bg {
+    background-color: var(--bg-body-dark);
+    overflow: hidden;
+}
+
+.area-login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.login {
+    background-color: var(--color-dark);
+    width: 355px;
+    height: 320px;
+}
