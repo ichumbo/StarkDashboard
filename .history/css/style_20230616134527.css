@@ -67,69 +67,20 @@
     }
 
     .form {
-        width: 450px;
-        margin-left: -90px; 
+        width: 565px;
+        margin-bottom: -23px;
+        margin-left: 140px;
     }
 
     .login {
         width: 275px;
-        height: 360px;
+    height: 360px;
     }
 
     .icon {
         position: fixed;
-        height: 250px;
-        margin-left: -54px;
+        height: 300px;
+        margin-left: 205px;
     }
     
-    .login .input-form {
-        height: 35px;
-    }
-
-    .login .submit {
-        height: 35px;
-    }
-
-    .login p {
-        font-size: 10px;
-    }
-}
-
-@media screen and (max-width: 360px) {
-    .stats {
-        display: none;
-    }
-
-    .form {
-        width: 450px;
-        margin-left: -109px;
-        margin-bottom: 80px; 
-    }
-
-    .login {
-        width: 275px;
-        height: 360px;
-    }
-
-    .icon {
-        position: fixed;
-        height: 285px;
-        margin-left: -87px;
-    }
-
-    .wave {
-        height: 445px;
-    }
-    
-    .login .input-form {
-        height: 35px;
-    }
-
-    .login .submit {
-        height: 35px;
-    }
-
-    .login p {
-        font-size: 10px;
-    }
 }

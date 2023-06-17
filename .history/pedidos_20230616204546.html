@@ -14,7 +14,7 @@
 
 </head>
 <body>
-<!-------------------------------------------------Perfil------------------------------------------------------>
+<!-------------------------------------------------Perfil----------------------------------------------------->
     <div class="page-wrapper">
         <input type="checkbox" name="" id="menu-toggle">
 
@@ -33,14 +33,8 @@
                 </div>
                 <div class="profile-action">
                     <a href="login.html" class="btn btn-white">
-                        <span class="las la-door-open"></span>
-                        <h3>Sair</h3>
+                        <h4>Sair</h4>
                     </a>
-                </div>
-                <div class="profile-icons">
-                    <span class="las la-user"></span>
-                    <span class="las la-comment-alt"></span>
-                    <span class="las la-file-invoice"></span>
                 </div>
             </div>
 
@@ -50,42 +44,28 @@
                 <div class="menu-item">
                     <a href="index.html">
                         <span class="las la-campground"></span>
-                        <span>Home</span>
+                        <h4>Home</h4>
                     </a>
                 </div>
 
                 <div class="menu-item">
-                    <a href="pedidos.html">
+                    <a href="pedidos.html" class="active">
                         <span class="las la-list"></span>
-                        <span>Pedidos</span>
-                    </a>
-                </div>
-
-                <div class="menu-item">
-                    <a href="pedidos_andamento.html" class="active">
-                        <span class="las la-hourglass-half"></span>
-                        <span>Andamento</span>
-                    </a>
-                </div>
-
-                <div class="menu-item">
-                    <a href="pedidos_finalizados.html">
-                        <span class="las la-list-alt"></span>
-                        <span>Finalizados</span>
+                        <h4>Pedidos</h4>
                     </a>
                 </div>
 
                 <div class="menu-item">
                     <a href="clientes.html">
                         <span class="las la-users"></span>
-                        <span>Clientes</span>
+                        <h4>Clientes</h4>
                     </a>
                 </div>
 
                 <div class="menu-item">
                     <a href="configuracao.html">
                         <span class="las la-cog"></span>
-                        <span>Configurações</span>
+                        <h4>Configurações</h4>
                     </a>
                 </div>
 
@@ -109,67 +89,92 @@
 <!--------------------------------------------------Main--------------------------------------------------------->
             <main>
                 <div class="page-header">
-                    <h1>Boa Noite, Ian Melo</h1>
+                    <h2>Boa Noite, Ian Melo</h2>
                     <small>Aqui esta a análise da loja</small>
                 </div>
 
-                <div class="analytics-register">
+            <!--------------------Tabela----------------------->
+                <div>
                     <table class="content-table">
                         <thead>
-                            <h2 class="title-table">Pedidos em Andamento</h2>
-                            <tr>
+                        <tr>
                             <th>Rank</th>
-                            <th>Nome</th>
+                            <th>Name</th>
                             <th>Points</th>
                             <th>Team</th>
-                            </tr>
+                            <th>Status</th>
+                        </tr>
                         </thead>
                         <tbody>
-                            <tr class="active-row">
-                            <td>1</td>
-                            <td>Domenic</td>
-                            <td>88,110</td>
-                            <td>dcode</td>
-                            </tr>
-                            <tr>
-                            <td>1</td>
-                            <td>Domenic</td>
-                            <td>88,110</td>
-                            <td>dcode</td>
-                            </tr>
-                            <tr>
-                            <td>1</td>
-                            <td>Domenic</td>
-                            <td>88,110</td>
-                            <td>dcode</td>
-                            </tr>
-                            <tr>
-                            <td>1</td>
-                            <td>Domenic</td>
-                            <td>88,110</td>
-                            <td>dcode</td>
-                            </tr>
-                            <tr>
+                        <tr class="active-row">
                             <td>2</td>
                             <td>Sally</td>
                             <td>72,400</td>
                             <td>Students</td>
-                            </tr>
-                            <tr>
+                            <td class="success"><p>Finalizado</p></td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>1</td>
+                            <td>Domenic</td>
+                            <td>88,110</td>
+                            <td>dcode</td>
+                            <td class="success"><p>Finalizado</p></td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>1</td>
+                            <td>Domenic</td>
+                            <td>88,110</td>
+                            <td>dcode</td>
+                            <td class="success"><p>Finalizado</p></td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>1</td>
+                            <td>Domenic</td>
+                            <td>88,110</td>
+                            <td>dcode</td>
+                            <td class="success"><p>Finalizado</p></td>
+                        </tr>
+                        <tr class="active-row">
+                            <td>1</td>
+                            <td>Domenic</td>
+                            <td>88,110</td>
+                            <td>dcode</td>
+                            <td class="success"><p>Finalizado</p></td>
+                        </tr>
+                        <tr class="active-row">
                             <td>3</td>
                             <td>Nick</td>
                             <td>52,300</td>
                             <td>dcode</td>
-                            </tr>
+                            <td class="success"><p>Finalizado</p></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Nick</td>
+                            <td>52,300</td>
+                            <td>dcode</td>
+                            <td class="pending"><p>Pendente</p></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Nick</td>
+                            <td>52,300</td>
+                            <td>dcode</td>
+                            <td class="pending"><p>Pendente</p></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Nick</td>
+                            <td>52,300</td>
+                            <td>dcode</td>
+                            <td class="pending"><p>Pendente</p></td>
+                        </tr>
                         </tbody>
-                        </table>
+                    </table>
                 </div>
-
             </main>
         </div>
     </div>
-
-<!----------------------------------------Script------------------------------------------->
 
 </body>
 </html>

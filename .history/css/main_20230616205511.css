@@ -96,7 +96,7 @@
 }
 
 .content-table tbody tr:last-of-type {
-    border-bottom: 20px solid var(--color-main);
+    border-bottom: 5px solid var(--color-main);
 }
 
 .content-table tbody tr.active-row {

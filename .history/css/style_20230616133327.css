@@ -1,0 +1,44 @@
+@import url(./global.css);
+@import url(./color.css);
+@import url(./sidebar.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./login.css);
+@import url(./registro.css);
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#menu-toggle {
+    display: none;
+}
+
+/*-------------------------------------------------------MEDIA-TELA-----------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1050px) {
+    
+}
+
+@media screen and (max-width: 1000px) {
+    
+}
+
+@media screen and (max-width: 900px) {
+    .stats {
+        display: none;
+    }
+
+    .form {
+        display: none;
+    }
+
+    .login {
+        margin-left: 0;
+    }
+
+    .icon {
+        position: fixed;
+        height: 200px;
+        left: 150px;
+        bottom: 325px;
+        width: auto;
+}

@@ -1,0 +1,27 @@
+@import url(./global.css);
+@import url(./color.css);
+@import url(./sidebar.css);
+@import url(./header.css);
+@import url(./main.css);
+@import url(./login.css);
+@import url(./registro.css);
+
+/*------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#menu-toggle {
+    display: none;
+}
+
+/*-------------------------------------------------------MEDIA-TELA-----------------------------------------------------------------------------*/
+
+@media screen and (max-width: 1050px) {
+    #login-bg {
+        grid-gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    form {
+        width: 290px;;
+    }
+}

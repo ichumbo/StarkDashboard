@@ -113,12 +113,12 @@
 
     .icon {
         position: fixed;
-        height: 285px;
-        margin-left: -87px;
+        height: 250px;
+        margin-left: -54px;
     }
 
     .wave {
-        height: 445px;
+        height: 250px;
     }
     
     .login .input-form {

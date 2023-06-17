@@ -102,8 +102,7 @@
 
     .form {
         width: 450px;
-        margin-left: -109px;
-        margin-bottom: 80px; 
+        margin-left: -90px; 
     }
 
     .login {
@@ -113,12 +112,8 @@
 
     .icon {
         position: fixed;
-        height: 285px;
-        margin-left: -87px;
-    }
-
-    .wave {
-        height: 445px;
+        height: 250px;
+        margin-left: -54px;
     }
     
     .login .input-form {

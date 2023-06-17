@@ -79,7 +79,7 @@
     padding: 2px 10px;
     border-radius: 25px;
     font-weight: bold;
-    color: #FF7B54;
+    color: #F29727;
 }
 
 .content-table th,
@@ -96,7 +96,7 @@
 }
 
 .content-table tbody tr:last-of-type {
-    border-bottom: 20px solid var(--color-main);
+    border-bottom: 2px solid var(--color-main);
 }
 
 .content-table tbody tr.active-row {
